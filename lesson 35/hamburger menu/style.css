@@ -1,0 +1,14 @@
+div{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+div a li{
+    text-decoration: none;
+    display: inline;
+    color: red;
+    padding: 20px;
+    padding-top: 45px;
+    margin-top: 50px;
+}
+
