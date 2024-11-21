@@ -1,14 +1,31 @@
-div{
+nav{
     background-color: blue;
-    height: 100px;
-    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
-div a li{
+
+nav #links{
+    display: none;
+}
+
+nav a, button{
+    color: white;
+    padding: 15px 7px;
+    font-size: 15px;
+    display: block;
     text-decoration: none;
-    display: inline;
-    color: red;
-    padding: 20px;
-    padding-top: 45px;
-    margin-top: 50px;
+}
+
+nav button.icon{
+    background-color: blue;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: blue;
 }
 
