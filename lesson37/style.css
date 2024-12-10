@@ -1,0 +1,11 @@
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    background-color: blue;
+    display: flex;
+}
+li:hover{
+    transition-duration: 500ms;
+    background-color: lightblue;
+}
+
