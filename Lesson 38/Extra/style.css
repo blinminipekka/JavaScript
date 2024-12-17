@@ -1,0 +1,49 @@
+.nav-item:hover{
+    transition-duration: 500ms;
+    background-color: beige;
+}
+.nav-link:hover{
+    transition-duration: 500ms;
+    color: white;
+
+}
+.nav-link{
+    color: white;
+
+}
+.container-fluid{
+    background-color: bisque;
+} 
+.card{
+    display: flex;
+    background-color: blanchedalmond;
+}
+#castl{
+    display: flex;
+}
+.btn-primary{
+    background-color:antiquewhite;
+    border-color: black;
+    color: goldenrod;
+
+}
+
+.btn-secondary{
+    background-color: beige;
+    border-color: black;
+    color: gold;
+}
+.btn-secondary:hover{
+    transition-duration: 300ms;
+    background-color:antiquewhite;
+    border-color: black;
+    color: goldenrod;
+}
+.btn-primary:hover{
+    transition-duration: 300ms;
+    background-color: beige;
+    border-color: black;
+    color: gold;
+}
+
+
